@@ -1,0 +1,18 @@
+# ROADMAP
+
+## Objective
+
+A chrome extension that streamline my, if not others', HN experience.
+
+## Functions
+
+Wider ReadItLater support
+Easier to share to social media
+SVM then ConvolutionNet recommendation system
+Comment at the bottom of the page
+
+## Plan
+Learn TypedArray and Worker
+Integration of API
+Recommendation system
+ReadItLater
