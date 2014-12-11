@@ -6,7 +6,22 @@
   "version": "0.1",
 
   "permissions": [
-    "https://news.ycombinator.com/"
+    "tabs",
+    "<all_urls>"
+  ],
+
+  "background": {
+    "persistent": false,
+    "scripts": ["lib/dropbox-datastores-1.2.0.js", "lib/convnet-min.js", "js/MLWorker.js", "js/ML.js"]
+  },
+  
+  "options_page": "options.html",
+
+  "content_scripts": [
+    {
+      "matches": ["https://news.ycombinator.com/"],
+      "js": ["lib/jquery-2.1.1.min.js", "js/hn_index.js"]
+    }
   ],
   
   "browser_action": {
