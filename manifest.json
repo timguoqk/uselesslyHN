@@ -12,7 +12,7 @@
 
   "background": {
     "persistent": false,
-    "scripts": ["lib/dropbox-datastores-1.2.0.js", "lib/convnet-min.js", "js/MLWorker.js", "js/ML.js"]
+    "scripts": ["lib/dropbox-datastores-1.2.0.js", "lib/convnet-min.js", "js/ML.js", "js/HNArticleTracker.js"]
   },
   
   "options_page": "options.html",

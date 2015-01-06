@@ -16,4 +16,6 @@ function predictRating (id, rating) {
 	//TODO
 }
 
-function 
+function sync() {
+	
+}

@@ -8,15 +8,15 @@ A chrome extension that streamline my, if not others', HN experience.
 
 Wider ReadItLater support
 Easier to share to social media
-SVM then ConvolutionNet recommendation system
+ConvolutionNet recommendation system
 Comment at the bottom of the page
 
 ## Plan
+ReadItLater
 Use eventpage to handle learning process
 Store data using Dropbox API; store preference using chrome sync
 Integration of API
 Recommendation system
-ReadItLater
 
 https://developer.chrome.com/extensions/event_pages#lifetime
 https://developer.chrome.com/extensions/runtime#event-onInstalled
